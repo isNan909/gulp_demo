@@ -1,0 +1,16 @@
+$grey: #666;
+
+p {
+  color: black;
+  border:2px solid;
+  border-radius: 2px;
+}
+a {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+}
